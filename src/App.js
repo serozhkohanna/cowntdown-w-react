@@ -8,12 +8,13 @@ import HB from './components/HB.js';
 
 class App extends Component {
   render() {
+
     return (
       <BrowserRouter>
       <div>
 
       <Linked />
-      <Route exact path = '/NewYear' component = {NewYear} />
+      <Route exact path = '/' component = {NewYear} />
       <Route  path = '/Easter' component = {Easter} />
       <Route  path = '/HB' component = {HB} />
       </div>
