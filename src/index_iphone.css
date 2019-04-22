@@ -1,0 +1,70 @@
+@media only screen and (max-width:375px) {
+  body{
+    padding: 30px 0px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 375px;
+  }
+  .nav{
+    padding: 0px 10px;
+    width: 375px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 22px;
+  }
+  .page{
+    padding:20px 0px;
+    font-family: 'Cinzel', serif;
+  }
+  .page p{
+    width: 375px;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0;
+
+    font-size: 40px;
+    word-spacing: 25px;
+    letter-spacing: 2px;
+  }
+  .dataList{
+    width: 375px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0px;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .keyList{
+    display: grid;
+    width: 375px;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 15px;
+    text-align: center;
+    grid-column-gap: 0px;
+  }
+
+  #capital-letter{
+    top: 240px;
+    text-align: center;
+    left: -20px;
+    font-size: 310px;
+  }
+  #label{
+    width: 300px;
+    height: 10px;
+    background-color: #E13887;
+    margin-top: 290px;
+    border-radius: 1px;
+  }
+  #label-1{
+    height: 13px;
+    margin-left: 15px;
+  }
+  #label-text{
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: -30px;
+  }
+
+}
